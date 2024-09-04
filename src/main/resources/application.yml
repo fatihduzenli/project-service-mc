@@ -45,7 +45,7 @@ eureka:
 
   client:
     serviceUrl:
-      defaultZone: https://localhost:8761/eureka/ # This is where a eureka client sends the information to eureka server to register themself
+      defaultZone: http://localhost:8761/eureka/ # This is where a eureka client sends the information to eureka server to register themself
 
 
 management:
