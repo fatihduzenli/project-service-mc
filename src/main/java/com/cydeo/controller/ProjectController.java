@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.security.RolesAllowed;
 import javax.validation.Valid;
 import java.util.List;
-
+@CrossOrigin(value = "http://localhost:8762")
 @RestController
 @RequestMapping("/api/v1/project")
 @Tag(name = "ProjectController", description = "Project controller endpoints")
